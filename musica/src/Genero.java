@@ -66,6 +66,7 @@ public class Genero {
 
     public void imprimirDatos(){
         //hola a todos :)
+        //jhsfd
         System.out.println(this.tipo = tipo);
         System.out.println(this.ritmo = ritmo);
         System.out.println(this.anio = anio);
