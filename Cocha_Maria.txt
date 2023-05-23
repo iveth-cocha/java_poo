@@ -1,0 +1,12 @@
+Defina clase.- Grupo de elementos en común que comparten atributos y métodos// en mayusculas:Felino
+
+Explique lo que es un objeto.- es un elemento que posee características predeterminadas dentro de la clase// minusculas:gato,leon(miGato) 
+
+Defina lo que es método.-Describe que es lo que hace el objeto en forma de verbos//minuscula:cazar,comer,dormir
+
+Defina atributos.- que es lo que tiene el objeto, características, variedad//munusculas:edad 
+****
+Como crear instancias
+>Nombrea clase
+>Nombre de la instancia
+>new instancia
