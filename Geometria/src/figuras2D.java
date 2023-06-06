@@ -1,20 +1,59 @@
 public class figuras2D {
-    int nlados;
-    //cosntructor
-    public figuras2D(int nlados) {
-        this.nlados = nlados;
-    }
-    //creacion de setter and getter
-    public int getNlados() {
-        return nlados;
-    }
+    //triangulo equilatero y cuadrado
+    private int nLados;//número de lados
+    public float lado;//longitud del lado
 
-    public void setNlados(int nlados) {
-        this.nlados = nlados;
+    //Constructor
+    public figuras2D(int nLados) {
+        this.nLados = nLados;
     }
 
-    areaCuadrado(){
-
+    public figuras2D(float lado) {
+        this.lado = lado;
     }
 
+    public figuras2D(int nLados, float lado) {
+        this.nLados = nLados;
+        this.lado = lado;
+    }
+
+    //Setters y getters
+    public float getLado() {
+        return lado;
+    }
+
+    public void setLado(float lado) {
+        this.lado = lado;
+    }
+
+
+    public int getnLados() {
+
+        return nLados;
+    }
+
+    public void setnLados(int nLados) {
+
+        this.nLados = nLados;
+    }
+
+
+    public float areaCuadrado(int lado){
+
+        return this.lado*this.lado;
+    };
+    public float perimetroCuadrado(){
+
+        return this.lado*4;
+    };
+
+    public double areaTriangulo(){
+        return (1.73/4)*(lado*lado);
+
+    };
+    public float perimetroTriangulo(){
+        return this.lado*3;
+
+    };
 }
+
