@@ -11,6 +11,8 @@ public class Menu {
         System.out.println("----Triangulo----");
         System.out.println(miFigura2.areaTriangulo());
         System.out.println(miFigura2.perimetroTriangulo());
+        //cambiar a privado
+
 
     }
 
